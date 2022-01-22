@@ -33,6 +33,7 @@ sudo snap install helm --classic
 
 ```
 
+Thats all! `Happy helming`!!
 
 # For next step need to install [Cert-Manager] 
 
