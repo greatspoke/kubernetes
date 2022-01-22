@@ -57,6 +57,6 @@ orders.acme.cert-manager.io                      2021-07-07T05:59:44Z
 
 `Now everything is installed correctly let's move to the next step!`
 
-# For next step need to install [ingres-nginx] 
+# For next step need to install [wildcard-issuer] 
 
-[ingres-nginx]: https://github.com/greatspoke/kubernetes/blob/master/docs/Install-ingres-nginx.md
+[wildcard-issuer]: https://github.com/greatspoke/kubernetes/blob/master/docs/Install-cloudflare-wildcard-issuer.md
