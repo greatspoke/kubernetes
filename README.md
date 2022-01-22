@@ -39,4 +39,4 @@ read the CNCF [announcement]. All information [here]
 [Scalable Microservices with Kubernetes]: https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615
 [troubleshooting guide]: https://kubernetes.io/docs/tasks/debug-application-cluster/troubleshooting/
 [here]: https://github.com/kubernetes/kubernetes/
-[HereWeGo]: https://github.com/greatspoke/kubernetes/blob/master/docs/
+[HereWeGo]: https://github.com/greatspoke/kubernetes/tree/master/docs/
