@@ -1,24 +1,24 @@
 ## To start using helm on local machine
 
 
-##### Installing Helm From Script
+##### Installing Helm From Scriptv
 ```
 curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
 chmod 700 get_helm.sh
 ./get_helm.sh
 ```
-##### From Homebrew (macOS)
+##### From Homebrew (macOS):
 ```
 brew install helm
 ```
 
-##### From Chocolatey (Windows)
+##### From Chocolatey (Windows):
 ```
 choco install kubernetes-helm
 ```
 
 
-##### From Apt (Debian/Ubuntu)
+##### From Apt (Debian/Ubuntu)v
 ```
 curl https://baltocdn.com/helm/signing.asc | sudo apt-key add -
 sudo apt-get install apt-transport-https --yes
@@ -27,7 +27,7 @@ sudo apt-get update
 sudo apt-get install helm
 ```
 
-##### From Snap
+##### From Snap:
 ```
 sudo snap install helm --classic
 

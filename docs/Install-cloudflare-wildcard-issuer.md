@@ -1,6 +1,6 @@
-## To start using cloudflare-wildcard-issuer on K8s clusster
+## To start using cloudflare-wildcard-issuer on K8s cluster
 
-##### First we need get cloudflare API token. Going to [cloudflare-api-token] and click Create token
+##### First we need get cloudflare API token. Going to [cloudflare-api-token] and click Create token:
 ```
 Using template `Edit zone DNS`
 ```
@@ -15,7 +15,7 @@ Zone.Zone, Zone.DNS with Resources group All zones
 `Copy your new working token`
 
 
-##### So, now time to install our secret and then cloudflare-wildcard-issuer.
+##### So, now time to install our secret and then cloudflare-wildcard-issuer:
 ```
 apiVersion: v1
 kind: Secret
@@ -27,7 +27,7 @@ stringData:
   api-token: <your cloudflare api token here>
 ```
 
-##### Install cloudflare-wildcard-issuer.
+##### Install cloudflare-wildcard-issuer:
 ```
 apiVersion: cert-manager.io/v1
 kind: Issuer
@@ -49,10 +49,20 @@ spec:
               key: api-token
 ```
 
+##### Check if it`s work correctly:
+```
+kubectl get issuer -n production
+```
+#### You should get something like this:
+```
+NAME          READY   AGE
+letsencrypt   True    10S
+```
 
-# For next step need to install [ingress-nginx] 
 
+
+# For next step need to install [ingress-nginx-controller] 
 
 
 [cloudflare-api-token]: https://dash.cloudflare.com/profile/api-tokens
-[ingress-nginx]: https://github.com/greatspoke/kubernetes/blob/master/docs/Install-ingress-nginx.md
+[ingress-nginx-controller]: https://github.com/greatspoke/kubernetes/blob/master/docs/Install-ingress-nginx-controller.md

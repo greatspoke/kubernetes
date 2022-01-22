@@ -21,7 +21,7 @@ and microservices-oriented, consider joining the CNCF.
 For details about who's involved and how Kubernetes plays a role,
 read the CNCF [announcement]. All information [here]
 
-# Do you want to install k8s ? but don't know where to start? [HereWeGo] to see first lesson
+# Do you want to install k8s ? but don't know where to start? [HereWeGo] to see first lesson:
 
 [announcement]: https://cncf.io/news/announcement/2015/07/new-cloud-native-computing-foundation-drive-alignment-among-container
 [Borg]: https://research.google.com/pubs/pub43438.html
